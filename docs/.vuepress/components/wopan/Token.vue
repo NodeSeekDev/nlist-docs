@@ -18,7 +18,7 @@ const token = ref()
 
 async function getVerifyCode() {
   loading1.value = true
-  const res = await fetch(`${api()}/alist/wopan/login`, {
+  const res = await fetch(`${api()}/alist/wopan/verify_code`, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
@@ -34,7 +34,7 @@ async function getVerifyCode() {
 }
 async function getToken() {
   loading2.value = true
-  const res = await fetch(`${api()}/alist/wopan/verify_code`, {
+  const res = await fetch(`${api()}/alist/wopan/login`, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'

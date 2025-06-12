@@ -25,10 +25,10 @@ Dropbox官网：https://www.dropbox.com/
 
 ## **获取刷新令牌**
 
-前往：**https://alist.nn.ci/tool/dropbox/request.html**
+前往：**https://alist-docs.voidval.com/tool/dropbox/request.html**
 
-- 有两种方式，一种是直接使用AList提供的，一种是自己新建应用
-  - 获取方式如下（推荐使用第二种^{右侧的}^因为AList提供的已经无法新建用户了）
+- 有两种方式，一种是直接使用OpenList提供的，一种是自己新建应用
+  - 获取方式如下（推荐使用第二种^{右侧的}^因为OpenList提供的已经无法新建用户了）
   - 使用右侧自建`客户端ID`和`秘钥`时，记得授权^{第三张图}^
 
 <div class="image-preview">  
@@ -42,7 +42,7 @@ Dropbox官网：https://www.dropbox.com/
 
 - 获取方式如上图右图（创建应用链接：**https://www.dropbox.com/developers/apps** ）
 
-- 回调参数链接：**https://alist.nn.ci/tool/dropbox/callback**
+- 回调参数链接：**https://alist-docs.voidval.com/tool/dropbox/callback.html**
 
 参考链接：[**点击查看**](https://github.com/alist-org/alist/commit/cfee536b96f38e5ba3f3575fab4e89f6c0e1bc5b#commitcomment-119688700)
 
