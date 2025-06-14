@@ -20,7 +20,7 @@ star: true
 # Yandex云盘
 
 ### **刷新令牌**
-[点击这里](https://oauth.yandex.com/authorize?response_type=code&client_id=a78d5a69054042fa936f6c77f9a0ae8b) 来获取刷新令牌。
+[点击这里](https://oauth.yandex.com/authorize?response_type=code&client_id=4f966c143be4471e8e512e6f77a34d69) 来获取刷新令牌。
 
 ### **根文件夹ID**
 要挂载的根文件夹，默认为 `/`

@@ -1,10 +1,11 @@
 <script lang="ts" setup>
 import { NAlert, NSpace, NSpin, NInput } from 'naive-ui';
 import { ref } from 'vue';
+import {api} from "../api";
 
-const client_id = "a78d5a69054042fa936f6c77f9a0ae8b";
-const client_secret = "9c119bbb04b346d2a52aa64401936b2b";
-const callback_uri = "https://alist.nn.ci/tool/yandex/callback";
+const client_id = "4f966c143be4471e8e512e6f77a34d69";
+const client_secret = "c52e9d32c3134ef29b025729427b3334";
+const callback_uri = `${api()}/tool/yandex/callback`;
 
 const url = new URL(window.location.href);
 const code = url.searchParams.get("code");

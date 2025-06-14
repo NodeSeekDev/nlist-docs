@@ -60,7 +60,7 @@ const getToken = () => {
   url.searchParams.set("response_type", "code");
   url.searchParams.set(
     "redirect_uri",
-    "https://alist.nn.ci/tool/onedrive/callback"
+      "https://alist-docs.voidval.com/tool/onedrive/callback"
   );
   url.searchParams.set(
     "scope",

@@ -1,6 +1,7 @@
 <script lang="ts" setup>
 import { NButton, NSpace, NInput, NCard, NText } from 'naive-ui';
 import { reactive } from 'vue';
+import {api} from "../api";
 
 function createClient() {
   window.open("https://console.developers.google.com/", "_blank");
@@ -15,7 +16,7 @@ const rclone = {
   redirect_uri: 'http://127.0.0.1:53682/',
 }
 
-const alist_redirect_uri = "https://alist.nn.ci/tool/google/callback"
+const alist_redirect_uri = `${api()}/tool/google/callback`
 
 const data = reactive({
   client_id: "",
